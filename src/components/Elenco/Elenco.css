@@ -1,0 +1,54 @@
+.elenco {
+  margin-bottom: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.elenco h2 {
+  color: #e32b2b;
+  border-bottom: 2px solid #e32b2b;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.lista-jogadores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.posicao-grupo {
+  flex: 1 1 300px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.posicao-grupo h3 {
+  color: #e32b2b;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.posicao-grupo ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.jogador {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.jogador:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 768px) {
+  .lista-jogadores {
+    flex-direction: column;
+  }
+
+  .posicao-grupo {
+    flex-basis: 100%;
+  }
+}

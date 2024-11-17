@@ -1,0 +1,104 @@
+.cabecalho {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+}
+
+.top-bar {
+  background-color: #e32b2b;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.cta-button {
+  background-color: #b22222;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-right: 10px;
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #8b0000;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons svg {
+  margin-left: 15px;
+  cursor: pointer;
+  color: white;
+}
+
+.main-nav {
+  background-color: black;
+  padding: 10px 0;
+}
+
+.main-nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center; 
+  gap: 20px;
+  padding: 10px;
+  margin: 0;
+}
+
+.main-nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.main-nav li a:hover {
+  color: #ff6b6b;
+}
+
+@media (max-width: 768px) {
+  .top-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo-buttons {
+    margin-bottom: 10px;
+  }
+
+  .main-nav ul {
+    flex-wrap: wrap;
+  }
+
+  .main-nav li {
+    margin-bottom: 5px;
+  }
+}

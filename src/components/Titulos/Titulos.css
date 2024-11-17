@@ -1,0 +1,28 @@
+.titulos {
+    margin-bottom: 40px;
+  }
+  
+  .titulos h2 {
+    color: #ff0000;
+    border-bottom: 2px solid #ff0000;
+    padding-bottom: 10px;
+  }
+  
+  .lista-titulos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .titulo {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .titulo h3 {
+    margin-bottom: 5px;
+  }
